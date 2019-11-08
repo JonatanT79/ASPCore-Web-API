@@ -1,0 +1,702 @@
+[
+  {
+    "productName": "Mazdaspeed6",
+    "id": "2707e97b-76a4-458d-bea6-2399f1cc8a7e",
+    "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "color": "Crimson",
+    "publishDate": "2019-07-07T22:17:03Z"
+  },
+  {
+    "productName": "SRX",
+    "id": "95e87976-88e3-415d-b139-219538e948c1",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "color": "Puce",
+    "publishDate": "2018-11-18T20:47:39Z"
+  },
+  {
+    "productName": "Prius",
+    "id": "0d8b46f9-2cb0-4ad7-b26b-d417271289de",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+    "color": "Yellow",
+    "publishDate": "2018-11-25T23:46:34Z"
+  },
+  {
+    "productName": "S60",
+    "id": "8a99e220-e716-4ed8-8cdb-2f33e0a8339c",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "color": "Fuscia",
+    "publishDate": "2019-04-20T06:23:45Z"
+  },
+  {
+    "productName": "Ram Van B250",
+    "id": "a3c7d07a-4e07-44e8-9d48-05767f7a8aca",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "color": "Pink",
+    "publishDate": "2019-02-09T03:15:28Z"
+  },
+  {
+    "productName": "GTI",
+    "id": "1c720a88-b062-4490-a033-0201cbc28a42",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "color": "Aquamarine",
+    "publishDate": "2019-02-15T04:23:53Z"
+  },
+  {
+    "productName": "CX-9",
+    "id": "57256fec-3c1d-4821-a99c-aa0f4b95b24a",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "color": "Khaki",
+    "publishDate": "2018-11-17T14:10:38Z"
+  },
+  {
+    "productName": "SL-Class",
+    "id": "a3c7bf13-c5c2-4576-9568-1a9ec8fff031",
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "color": "Maroon",
+    "publishDate": "2019-02-18T11:33:36Z"
+  },
+  {
+    "productName": "Expedition",
+    "id": "fe7d7626-f7c5-4427-9747-784d89452a7e",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Purple",
+    "publishDate": "2019-01-05T04:49:49Z"
+  },
+  {
+    "productName": "Esprit",
+    "id": "e0f34608-95ea-4be7-bf11-7aa42b69ded7",
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Goldenrod",
+    "publishDate": "2019-05-12T11:31:57Z"
+  },
+  {
+    "productName": "LTD Crown Victoria",
+    "id": "0a8a0c20-e78f-4554-9631-3901bd8ac31f",
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "color": "Goldenrod",
+    "publishDate": "2019-08-31T19:54:54Z"
+  },
+  {
+    "productName": "Leone",
+    "id": "c36f374f-94ba-4d26-a8ab-0dd5175ad012",
+    "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "color": "Violet",
+    "publishDate": "2018-11-16T21:07:44Z"
+  },
+  {
+    "productName": "xB",
+    "id": "21407fa4-cf45-40f1-95cb-9e848ee64500",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+    "color": "Purple",
+    "publishDate": "2019-08-24T12:33:15Z"
+  },
+  {
+    "productName": "Accord",
+    "id": "77061da2-af58-44ac-8dac-4ce870cfee72",
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "color": "Mauv",
+    "publishDate": "2019-09-20T10:34:55Z"
+  },
+  {
+    "productName": "FX",
+    "id": "708f21dc-3a89-428b-989c-1fc017946295",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "color": "Crimson",
+    "publishDate": "2019-11-01T06:05:39Z"
+  },
+  {
+    "productName": "Dakota",
+    "id": "d3ee9aa5-ea73-4239-b7eb-1391a0c1b459",
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "color": "Yellow",
+    "publishDate": "2018-12-06T23:29:50Z"
+  },
+  {
+    "productName": "Sportage",
+    "id": "6a8ba140-5c4f-4ef1-91a1-4c74efc537f7",
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "color": "Green",
+    "publishDate": "2018-11-14T02:50:59Z"
+  },
+  {
+    "productName": "Tercel",
+    "id": "e2e7e0be-ecab-426b-821f-e2257b554b15",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "color": "Green",
+    "publishDate": "2019-06-24T14:28:28Z"
+  },
+  {
+    "productName": "Forester",
+    "id": "34337dce-8e08-4a8f-99c8-2d6bbb9f8c6b",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "color": "Puce",
+    "publishDate": "2018-11-12T23:48:57Z"
+  },
+  {
+    "productName": "GT-R",
+    "id": "e8797289-a768-42dd-aee5-1ef25235777d",
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "color": "Fuscia",
+    "publishDate": "2019-04-12T10:48:22Z"
+  },
+  {
+    "productName": "Silverado 2500",
+    "id": "1d612d4d-bedc-40b7-9e04-ff90e356f523",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "color": "Khaki",
+    "publishDate": "2018-11-16T14:21:54Z"
+  },
+  {
+    "productName": "Milan",
+    "id": "fe05c400-d93e-421f-886e-ada4b18d34b6",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "color": "Purple",
+    "publishDate": "2019-05-07T17:29:41Z"
+  },
+  {
+    "productName": "G-Class",
+    "id": "d4add264-b136-4f9b-b3f2-93e916afb96b",
+    "description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "color": "Indigo",
+    "publishDate": "2019-03-10T16:55:40Z"
+  },
+  {
+    "productName": "Navigator",
+    "id": "dcafcece-0ac9-40b5-bfcf-8318c8756e73",
+    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "color": "Blue",
+    "publishDate": "2018-11-09T20:08:09Z"
+  },
+  {
+    "productName": "C70",
+    "id": "fae00fac-f6a2-40e3-afc5-f8451c8b0820",
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "color": "Green",
+    "publishDate": "2019-09-13T23:55:05Z"
+  },
+  {
+    "productName": "Sable",
+    "id": "c8dd9ef8-efa4-43b1-af89-e8f64b103bbe",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "color": "Indigo",
+    "publishDate": "2019-02-09T21:31:47Z"
+  },
+  {
+    "productName": "Reliant",
+    "id": "0bbd523a-f890-483e-904a-724e24baeacf",
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "color": "Purple",
+    "publishDate": "2019-08-21T15:05:31Z"
+  },
+  {
+    "productName": "Century",
+    "id": "0b8da4ca-53da-4c1b-be84-ce100a8c1e14",
+    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "color": "Green",
+    "publishDate": "2019-02-24T21:52:01Z"
+  },
+  {
+    "productName": "G25",
+    "id": "a153c7be-bf45-486f-bb1d-31d1cf8afc08",
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "color": "Yellow",
+    "publishDate": "2019-02-14T10:39:17Z"
+  },
+  {
+    "productName": "Neon",
+    "id": "ef4ad1da-051a-4107-8242-f580c04aff1e",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "color": "Pink",
+    "publishDate": "2018-12-11T12:24:57Z"
+  },
+  {
+    "productName": "S2000",
+    "id": "71e2d32d-b195-4a6b-8b38-b3d49d925cdf",
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "color": "Purple",
+    "publishDate": "2019-07-20T02:23:52Z"
+  },
+  {
+    "productName": "Sierra 2500",
+    "id": "a91eab2c-d380-42d9-bf63-7e61183ce71a",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "color": "Crimson",
+    "publishDate": "2018-11-17T05:26:24Z"
+  },
+  {
+    "productName": "V70",
+    "id": "3af1e733-0544-4508-9730-a0b06b5002ad",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "color": "Violet",
+    "publishDate": "2019-02-19T14:50:15Z"
+  },
+  {
+    "productName": "Diamante",
+    "id": "ba50fdaa-cd97-4fef-95f9-561ecbe6981d",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "color": "Pink",
+    "publishDate": "2019-06-03T13:28:03Z"
+  },
+  {
+    "productName": "Malibu",
+    "id": "cc3798a4-2867-4c4d-a618-1d7e725e9305",
+    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "color": "Violet",
+    "publishDate": "2019-05-09T20:59:44Z"
+  },
+  {
+    "productName": "Econoline E150",
+    "id": "7535e447-a597-449a-b382-306a83454f14",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "color": "Purple",
+    "publishDate": "2019-08-06T13:45:13Z"
+  },
+  {
+    "productName": "TL",
+    "id": "24ee043f-b8cf-49c6-ab10-87c5696e741e",
+    "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "color": "Turquoise",
+    "publishDate": "2019-06-29T20:03:02Z"
+  },
+  {
+    "productName": "E-Class",
+    "id": "5e1729d9-6df2-4421-9420-cbdd8cc2572c",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "color": "Orange",
+    "publishDate": "2019-08-03T02:05:51Z"
+  },
+  {
+    "productName": "Familia",
+    "id": "19ef62bf-cab2-41d0-9746-f686393975f3",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+    "color": "Orange",
+    "publishDate": "2019-02-04T14:16:06Z"
+  },
+  {
+    "productName": "Sprinter",
+    "id": "6d3e4edd-8dec-45f5-b738-6817d22e896d",
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "color": "Pink",
+    "publishDate": "2019-06-24T21:08:51Z"
+  },
+  {
+    "productName": "8 Series",
+    "id": "daa1e6da-8a7b-46a4-9586-0d7306653043",
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "color": "Violet",
+    "publishDate": "2019-04-06T16:56:58Z"
+  },
+  {
+    "productName": "Villager",
+    "id": "b24f6f9d-66c2-486a-bd4f-5a1a7318e112",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "color": "Crimson",
+    "publishDate": "2019-07-03T09:06:08Z"
+  },
+  {
+    "productName": "6 Series",
+    "id": "15f4c962-6a1b-4de8-9049-c39e52bf4a72",
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+    "color": "Yellow",
+    "publishDate": "2019-09-30T15:10:58Z"
+  },
+  {
+    "productName": "Insight",
+    "id": "0441b3d6-3024-4b7a-a718-0116f18a95d6",
+    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "color": "Purple",
+    "publishDate": "2019-06-17T01:59:38Z"
+  },
+  {
+    "productName": "Brougham",
+    "id": "d4c13a73-a184-4a4b-9b59-81a39888cec3",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Puce",
+    "publishDate": "2019-01-08T23:35:40Z"
+  },
+  {
+    "productName": "B-Series Plus",
+    "id": "55ee822e-deef-45b3-9f78-87d6f6cc11cf",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "color": "Yellow",
+    "publishDate": "2019-05-05T11:24:13Z"
+  },
+  {
+    "productName": "DeVille",
+    "id": "25f357f6-7c74-41ad-9508-933f2b7e3ce0",
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "color": "Puce",
+    "publishDate": "2019-04-21T22:10:39Z"
+  },
+  {
+    "productName": "Type 2",
+    "id": "ee65d530-6edd-4eba-a491-59cd195ae4b6",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "color": "Green",
+    "publishDate": "2019-07-08T07:01:55Z"
+  },
+  {
+    "productName": "Prius",
+    "id": "b046ac25-6698-45ba-adae-d5b69af6abcb",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "color": "Yellow",
+    "publishDate": "2019-04-24T20:16:43Z"
+  },
+  {
+    "productName": "STS",
+    "id": "d663a83e-a497-4abe-b7c8-fbcb4aabbe7c",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Turquoise",
+    "publishDate": "2019-04-01T14:26:18Z"
+  },
+  {
+    "productName": "Aspire",
+    "id": "d075c05e-1a52-467a-8f15-49d4785b41dd",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "color": "Teal",
+    "publishDate": "2019-09-30T09:34:59Z"
+  },
+  {
+    "productName": "Club Wagon",
+    "id": "0783fdce-bee6-4640-ba80-a0e2010fc761",
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Violet",
+    "publishDate": "2019-07-04T16:59:26Z"
+  },
+  {
+    "productName": "Cooper Clubman",
+    "id": "74d413a4-0b1d-4595-bbb2-4a72dae6da52",
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "color": "Crimson",
+    "publishDate": "2019-06-14T07:40:51Z"
+  },
+  {
+    "productName": "Altima",
+    "id": "1ee9ac63-8bf1-4c0d-b33f-f70fcc83e49a",
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "color": "Yellow",
+    "publishDate": "2019-09-09T03:51:44Z"
+  },
+  {
+    "productName": "Camaro",
+    "id": "5f7ba37a-357e-4160-b274-543a18ad9f97",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "color": "Turquoise",
+    "publishDate": "2018-12-18T05:05:11Z"
+  },
+  {
+    "productName": "Laser",
+    "id": "d83f548e-323c-426b-93a8-3b2dca2a5919",
+    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "color": "Green",
+    "publishDate": "2019-10-23T22:45:09Z"
+  },
+  {
+    "productName": "Nuova 500",
+    "id": "c608426f-0caf-45b9-91be-dfd51a0c31e8",
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "color": "Fuscia",
+    "publishDate": "2019-05-04T04:37:49Z"
+  },
+  {
+    "productName": "Corvette",
+    "id": "27106848-d89a-4ec1-8c97-86daff29a2f4",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "color": "Violet",
+    "publishDate": "2019-04-09T11:10:23Z"
+  },
+  {
+    "productName": "Forester",
+    "id": "b6b23e28-1843-4a49-a52d-abe0b5724a4f",
+    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "color": "Mauv",
+    "publishDate": "2019-10-16T12:21:05Z"
+  },
+  {
+    "productName": "Passat",
+    "id": "15b931bb-ac64-4519-beae-0a09f23f13bc",
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "color": "Orange",
+    "publishDate": "2018-12-02T08:38:37Z"
+  },
+  {
+    "productName": "Azure T",
+    "id": "5dd13787-a68f-4885-8bc2-0b1bc97cdd2a",
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "color": "Puce",
+    "publishDate": "2019-02-10T00:28:52Z"
+  },
+  {
+    "productName": "650",
+    "id": "cb8e6587-2283-4495-b978-5684c5ccf86d",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "color": "Violet",
+    "publishDate": "2019-01-31T05:42:31Z"
+  },
+  {
+    "productName": "LR3",
+    "id": "be4bedb7-ee0d-4276-be1f-8a5d97459168",
+    "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "color": "Teal",
+    "publishDate": "2018-12-27T09:28:05Z"
+  },
+  {
+    "productName": "Xterra",
+    "id": "b9c6fe83-f522-4a7f-8705-a3ff753fa2f6",
+    "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "color": "Goldenrod",
+    "publishDate": "2019-09-06T16:20:40Z"
+  },
+  {
+    "productName": "Century",
+    "id": "2946ac94-b029-4e60-9153-a28b6dcd9dda",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "color": "Yellow",
+    "publishDate": "2019-08-04T19:04:57Z"
+  },
+  {
+    "productName": "Pilot",
+    "id": "fd04c0a6-4160-461b-bdea-95c0043c6b7f",
+    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "color": "Blue",
+    "publishDate": "2018-11-16T13:43:56Z"
+  },
+  {
+    "productName": "Camaro",
+    "id": "40868411-0422-4f5c-86cb-028143eb6ee4",
+    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+    "color": "Crimson",
+    "publishDate": "2018-11-14T22:55:38Z"
+  },
+  {
+    "productName": "F150",
+    "id": "4e341bc8-1143-4e57-8ddf-bd33ea31aaac",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+    "color": "Yellow",
+    "publishDate": "2019-05-21T08:20:03Z"
+  },
+  {
+    "productName": "Evora",
+    "id": "4f575cea-87de-4339-a318-6f6302ed2c92",
+    "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "color": "Purple",
+    "publishDate": "2019-03-04T06:28:30Z"
+  },
+  {
+    "productName": "S4",
+    "id": "8af72a22-863f-4469-aaf8-0573bcf64392",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "color": "Mauv",
+    "publishDate": "2019-08-10T01:00:18Z"
+  },
+  {
+    "productName": "4Runner",
+    "id": "ec798144-0608-4d09-a463-9096a65c017f",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+    "color": "Purple",
+    "publishDate": "2019-01-12T11:01:21Z"
+  },
+  {
+    "productName": "XC60",
+    "id": "aed0ac99-b796-4eb5-8284-91f0bd139a93",
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "color": "Yellow",
+    "publishDate": "2019-04-17T15:16:46Z"
+  },
+  {
+    "productName": "S80",
+    "id": "887a62ff-e768-423f-a5d6-fb80607b7360",
+    "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "color": "Teal",
+    "publishDate": "2018-11-28T10:45:40Z"
+  },
+  {
+    "productName": "Contour",
+    "id": "fc425f65-ce6a-4f9b-bbe2-16d8a0584c55",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "color": "Maroon",
+    "publishDate": "2018-12-30T23:55:48Z"
+  },
+  {
+    "productName": "C-Class",
+    "id": "fcc4cec6-0947-4aa6-ab2e-7b5867eeb227",
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "color": "Yellow",
+    "publishDate": "2019-07-12T03:12:35Z"
+  },
+  {
+    "productName": "Avalanche",
+    "id": "01181b06-ff9a-4ae7-ab87-2b4d7a79d192",
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "color": "Violet",
+    "publishDate": "2019-05-28T17:57:43Z"
+  },
+  {
+    "productName": "525",
+    "id": "b24ae39f-970b-4bfd-8022-6731f2cd2163",
+    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "color": "Blue",
+    "publishDate": "2019-04-01T19:42:20Z"
+  },
+  {
+    "productName": "Achieva",
+    "id": "e7c924c8-6b2d-40c8-b2d7-58538add1f44",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "color": "Turquoise",
+    "publishDate": "2019-01-25T04:38:01Z"
+  },
+  {
+    "productName": "Laser",
+    "id": "58be8d80-5718-4b5d-9f40-684d1639a2e6",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "color": "Khaki",
+    "publishDate": "2019-01-22T21:11:23Z"
+  },
+  {
+    "productName": "Jetta",
+    "id": "977fedf5-2ac3-4933-af72-d349186a3bf4",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "color": "Puce",
+    "publishDate": "2019-03-10T11:26:19Z"
+  },
+  {
+    "productName": "G5",
+    "id": "99641665-ea1b-4238-b193-88b4b46e4f51",
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "color": "Red",
+    "publishDate": "2019-02-01T16:03:07Z"
+  },
+  {
+    "productName": "Ranger",
+    "id": "57c693c1-af23-429a-b70e-efb1d343a02c",
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "color": "Turquoise",
+    "publishDate": "2018-12-24T13:17:55Z"
+  },
+  {
+    "productName": "Prelude",
+    "id": "9400b8f7-ae41-4b39-a56c-1e33f2713788",
+    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "color": "Orange",
+    "publishDate": "2019-06-02T04:25:34Z"
+  },
+  {
+    "productName": "S10 Blazer",
+    "id": "5a447a91-5718-480d-8ca3-637862ba1c9a",
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "color": "Puce",
+    "publishDate": "2019-10-16T13:57:24Z"
+  },
+  {
+    "productName": "Sportvan G30",
+    "id": "441fec70-4259-4049-bf97-2bf043d3b184",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "color": "Mauv",
+    "publishDate": "2018-12-04T07:51:32Z"
+  },
+  {
+    "productName": "Tahoe",
+    "id": "ce989722-7944-4008-bfeb-35d11f0e503b",
+    "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "color": "Maroon",
+    "publishDate": "2019-01-31T09:25:25Z"
+  },
+  {
+    "productName": "Horizon",
+    "id": "e4609f17-48d8-4b26-a8fb-7e08e2f4cc79",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "color": "Purple",
+    "publishDate": "2019-09-29T23:39:00Z"
+  },
+  {
+    "productName": "Impala",
+    "id": "271bbffc-cf03-4c49-a575-d96faca71796",
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "color": "Orange",
+    "publishDate": "2019-07-23T23:30:38Z"
+  },
+  {
+    "productName": "3000GT",
+    "id": "4fb9a4a7-52b3-4c37-b5ff-3607e5968fc7",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "color": "Khaki",
+    "publishDate": "2019-01-20T10:12:25Z"
+  },
+  {
+    "productName": "Escort",
+    "id": "71923199-6453-4fb5-82b8-39c493a0a0ee",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "color": "Green",
+    "publishDate": "2019-03-09T12:14:11Z"
+  },
+  {
+    "productName": "del Sol",
+    "id": "899eaa92-12af-4237-a8f1-e357a6f8a1eb",
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "color": "Puce",
+    "publishDate": "2019-03-30T07:42:17Z"
+  },
+  {
+    "productName": "LeSabre",
+    "id": "af916a17-6792-4bda-ab38-16f1069c8cfe",
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "color": "Puce",
+    "publishDate": "2019-04-03T17:15:43Z"
+  },
+  {
+    "productName": "Optima",
+    "id": "088300af-3fab-43a2-8e70-1907e838f0c3",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "color": "Mauv",
+    "publishDate": "2019-04-04T23:45:37Z"
+  },
+  {
+    "productName": "Tracker",
+    "id": "1f471d64-4c7e-4851-813c-d806ddcc746c",
+    "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "color": "Turquoise",
+    "publishDate": "2019-09-18T05:49:57Z"
+  },
+  {
+    "productName": "Firebird",
+    "id": "cb01419b-43fe-4c70-a227-e3f1cc7427a4",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "color": "Mauv",
+    "publishDate": "2019-06-01T00:13:29Z"
+  },
+  {
+    "productName": "Outlook",
+    "id": "d67e6294-72fd-4220-b1db-474d0747c3bc",
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "color": "Purple",
+    "publishDate": "2018-12-13T04:04:49Z"
+  },
+  {
+    "productName": "Vandura 2500",
+    "id": "8b3f357d-1877-494d-b018-0c94c1ea8af1",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "color": "Blue",
+    "publishDate": "2019-06-04T03:21:19Z"
+  },
+  {
+    "productName": "Element",
+    "id": "7b0bd879-2f30-49eb-a6c8-75ddd307038e",
+    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "color": "Teal",
+    "publishDate": "2019-04-01T21:17:13Z"
+  },
+  {
+    "productName": "Viper",
+    "id": "09c59222-d4ae-4c8e-b2cb-e03daf63581b",
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "color": "Mauv",
+    "publishDate": "2018-11-30T15:24:11Z"
+  },
+  {
+    "productName": "Celica",
+    "id": "fcb8ae7b-e39c-408b-ab92-6dfdb58bc491",
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "color": "Crimson",
+    "publishDate": "2018-12-23T02:15:45Z"
+  }
+]
