@@ -21,7 +21,6 @@ namespace CloudNine.Praktik.Controllers
 
         // GET: api/products/5
 
-
         // GET: api/productColors
 
     }
