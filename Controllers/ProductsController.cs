@@ -29,7 +29,20 @@ namespace CloudNine.Praktik.Controllers
         }
 
         // GET: api/products/5
-   
+        [Route("api/[controller]/ID")]
+        [HttpGet]
+        public IActionResult GetProductsById()
+        {
+            return Ok(new { ID = "12345" });
+        }
+
+        // GET: api/productColors
+        [Route ("api/[Controller]/Color")]
+        [HttpGet]
+        public IActionResult GetProductByColor()
+        {
+            return Ok(new {Color = "Färg" });
+        }
     }
 }
 // snygga till utskriften av json listan
