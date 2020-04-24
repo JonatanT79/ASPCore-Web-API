@@ -3,47 +3,77 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using CloudNine.Praktik.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace CloudNine.Praktik.Controllers
 {
     [ApiController]
+    [Route("api")]
     public class ProductsController : ControllerBase
     {
+        [HttpGet("[controller]")]
         // GET: api/products
-        [Route("api/[controller]")]
-        [HttpGet]
-        public async Task<IEnumerable<string>> GetAsync(int? page, int? pageSize)
+        public async Task<IEnumerable<string>> GetAsync(int? page, int? pageSize, string Color)
         {
+            //localhost:6600
+            // filtrera produkt med färg
             // TODO: Returnera alla produkter, ta hänsyn till pagineringsparametrar om sådana skickats in.
-
-            var webClient = new WebClient();
-            var Json = webClient.DownloadString(@"C:\Users\jonat\OneDrive\Dokument\Cloudnine\Cloudnine-Codetest\Data\products.json");
+            var Client = new WebClient();
+            string Json = Client.DownloadString(JsonData.JsonFile);
             var convert = JsonConvert.SerializeObject(Json);
+            var split = convert.Split("},");
 
-            // var h = convert.ToString().Where(e => e == 'j').ToString();
-
-            return new string[] { convert };
+            return split.ToList();
         }
 
         // GET: api/products/5
-        [Route("api/[controller]/ID")]
-        [HttpGet]
-        public IActionResult GetProductsById()
+        // **************************************************** gör query color först ************************************
+        [HttpGet("[controller]/{ID}")]
+        public List<JsonData> GetProductsById(string ID)
         {
-            return Ok(new { ID = "12345" });
+            List<JsonData> list = new List<JsonData>();
+            var client = new WebClient();
+            string json = client.DownloadString(JsonData.JsonFile);
+
+            var JsonArray = JArray.Parse(json);
+
+            var query = from e in JsonArray
+                       // where JsonArray["id"].ToString() == ID
+                        select e;
+
+            JsonData jd = new JsonData();
+            foreach (var item in query)
+            {
+                jd.ID = item["id"].ToString();
+                jd.ProductName = item["productName"].ToString();
+                list.Add(jd);
+            }
+
+            return list;
         }
 
         // GET: api/productColors
-        [Route ("api/[Controller]/Color")]
-        [HttpGet]
-        public IActionResult GetProductByColor()
+        [HttpGet("productColors")]
+        public IEnumerable<string> GetProductByColor(string ID)
         {
-            return Ok(new {Color = "Färg" });
+            var client = new WebClient();
+            string json = client.DownloadString(JsonData.JsonFile);
+
+            var JsonArray = JArray.Parse(json);
+            List<string> Colorlist = new List<string>();
+            for (int i = 0; i < JsonArray.Count; i++)
+            {
+                Colorlist.Add(JsonArray[i]["color"].ToString());
+            }
+            return Colorlist;
         }
     }
 }
 // snygga till utskriften av json listan
 // använda where sats för att få fram specifierad id?
+// skapa en metod för json --- senare
+//spara strängen i en property i en json dataklass och skriv klass.sträng
