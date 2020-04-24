@@ -15,7 +15,7 @@ namespace CloudNine.Praktik.Controllers
     [Route("api")]
     public class ProductsController : ControllerBase
     {
-        [HttpGet("[controller]/{Page=0}/{pageSize=0}/{Color=-}")]
+        [HttpGet("[controller]/{Page=0}/{pageSize=0}/{Color=}")]
         // GET: api/products
         public async Task<IEnumerable<string>> GetAsync(int? page, int? pageSize, string Color)
         {
@@ -24,10 +24,44 @@ namespace CloudNine.Praktik.Controllers
             // TODO: Returnera alla produkter, ta hänsyn till pagineringsparametrar om sådana skickats in.
             var Client = new WebClient();
             string Json = Client.DownloadString(JsonData.JsonFile);
-            var convert = JsonConvert.SerializeObject(Json);
-            var split = convert.Split("},");
 
-            return split.ToList();
+            if (Color == null)
+            {
+                var convert = JsonConvert.SerializeObject(Json);
+
+                return new string[] { convert };
+            }
+            else
+            {
+                List<string> lista = new List<string>();
+                string Filterstring = "";
+                // Forloop that always make the first letter of string'Color' capital and the rest in lowercase
+                Filterstring += Color.Substring(0, 1).ToUpper();
+
+                for (int i = 1; i < Color.Length; i++)
+                {
+                    Filterstring += Color[i];
+                }
+
+                var JsonArray = JArray.Parse(Json);
+
+                for (int i = 0; i < JsonArray.Count; i++)
+                {
+                    if (JsonArray[i]["color"].ToString() == Filterstring)
+                    {
+                        lista.Add(JsonArray[i].ToString());
+                    }
+                }
+
+                if (lista.Count != 0)
+                {
+                    return lista;
+                }
+                else
+                {
+                    return new string[] { "No product have that color you entered" };
+                }
+            }
         }
 
         // GET: api/products/5
@@ -79,7 +113,6 @@ namespace CloudNine.Praktik.Controllers
 // använda where sats för att få fram specifierad id?
 // skapa en metod för json --- senare
 //spara strängen i en property i en json dataklass och skriv klass.sträng
-
 
 //JsonData jd = new JsonData();
 //jd.ID = JsonArray[i]["id"].ToString();
