@@ -15,7 +15,7 @@ namespace CloudNine.Praktik.Controllers
     [Route("api")]
     public class ProductsController : ControllerBase
     {
-        [HttpGet("[controller]")]
+        [HttpGet("[controller]/{Page=0}/{pageSize=0}/{Color=-}")]
         // GET: api/products
         public async Task<IEnumerable<string>> GetAsync(int? page, int? pageSize, string Color)
         {
