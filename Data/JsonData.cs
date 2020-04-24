@@ -14,10 +14,14 @@ namespace CloudNine.Praktik.Data
         public const string JsonFile = @"C:\Users\jonat\OneDrive\Dokument\Cloudnine\Cloudnine-.NET Web API\Data\products.json";
         public List<string> GetPages(string json, List<string> stringlist, int? Page, int? Pagesize)
         {
+            //Create an Array of the Jsonfile-string
             var JsonArray = JArray.Parse(json);
+
+            //convert int? to int
             int Pageint = Convert.ToInt32(Page);
             int PageSizeint = Convert.ToInt32(Pagesize);
 
+            //Use LINQ to filter Pages
             var query = (from ArrayPage in JsonArray
                          select ArrayPage)
                             .Skip(Pageint)
@@ -41,10 +45,12 @@ namespace CloudNine.Praktik.Data
                 Filterstring += color[i];
             }
 
+            //Create an Array of the Jsonfile-string
             var JsonArray = JArray.Parse(json);
             int Pageint = Convert.ToInt32(Page);
             int PageSizeint = Convert.ToInt32(Pagesize);
 
+            //Use LINQ to filter by pages AND color
             var query = (from ArrayPage in JsonArray
                          where ArrayPage["color"].ToString() == Filterstring
                          select ArrayPage)
@@ -61,14 +67,16 @@ namespace CloudNine.Praktik.Data
         public JToken GetProductFilteredByID(string ID, JToken product)
         {
             var client = new WebClient();
-            string json = client.DownloadString(JsonData.JsonFile);
+            string json = client.DownloadString(JsonFile);
 
             var JsonArray = JArray.Parse(json);
            
+            //Check through all elements in array to see if 'ID' matches the 'id' in Jsonfile
             for (int i = 0; i < JsonArray.Count; i++)
             {
                 if (JsonArray[i]["id"].ToString() == ID)
                 {
+                    //If any productsID matches 'ID' then the compiler will break of the the forloop with 'break' keyword
                     product = JsonArray[i];
                     break;
                 }
@@ -83,11 +91,13 @@ namespace CloudNine.Praktik.Data
             string json = client.DownloadString(JsonData.JsonFile);
             var JsonArray = JArray.Parse(json);
 
+            //Add all elements in JsonArray to Colorlist
             for (int i = 0; i < JsonArray.Count; i++)
             {
                 Colorlist.Add(JsonArray[i]["color"].ToString());
             }
 
+            //Return Colorlist with all the elements in JsonFile
             return Colorlist;
         }
     }
