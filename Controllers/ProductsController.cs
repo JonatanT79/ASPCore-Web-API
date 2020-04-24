@@ -31,29 +31,31 @@ namespace CloudNine.Praktik.Controllers
         }
 
         // GET: api/products/5
-        // **************************************************** gör query color först ************************************
         [HttpGet("[controller]/{ID}")]
-        public List<JsonData> GetProductsById(string ID)
+        public string GetProductsById(string ID)
         {
-            List<JsonData> list = new List<JsonData>();
             var client = new WebClient();
             string json = client.DownloadString(JsonData.JsonFile);
 
             var JsonArray = JArray.Parse(json);
-
-            var query = from e in JsonArray
-                       // where JsonArray["id"].ToString() == ID
-                        select e;
-
-            JsonData jd = new JsonData();
-            foreach (var item in query)
+            JToken product = null;
+            for (int i = 0; i < JsonArray.Count; i++)
             {
-                jd.ID = item["id"].ToString();
-                jd.ProductName = item["productName"].ToString();
-                list.Add(jd);
+                if (JsonArray[i]["id"].ToString() == ID)
+                {
+                    product = JsonArray[i];
+                    break;
+                }
             }
 
-            return list;
+            if (product == null)
+            {
+                return "No product with that ID found :(";
+            }
+            else
+            {
+                return product.ToString();
+            }
         }
 
         // GET: api/productColors
@@ -77,3 +79,8 @@ namespace CloudNine.Praktik.Controllers
 // använda where sats för att få fram specifierad id?
 // skapa en metod för json --- senare
 //spara strängen i en property i en json dataklass och skriv klass.sträng
+
+
+//JsonData jd = new JsonData();
+//jd.ID = JsonArray[i]["id"].ToString();
+//jd.ProductName = JsonArray[i]["productName"].ToString();
