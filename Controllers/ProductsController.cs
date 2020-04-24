@@ -15,21 +15,27 @@ namespace CloudNine.Praktik.Controllers
     [Route("api")]
     public class ProductsController : ControllerBase
     {
-        [HttpGet("[controller]/{Page=0}/{pageSize=0}/{Color=}")]
+        JsonData _jsonData = new JsonData();
+
+        [HttpGet("[controller]/{Page=}/{pageSize=}/{Color=}")]
         // GET: api/products
         public async Task<IEnumerable<string>> GetAsync(int? page, int? pageSize, string Color)
         {
             //localhost:6600
-            // filtrera produkt med färg
-            // TODO: Returnera alla produkter, ta hänsyn till pagineringsparametrar om sådana skickats in.
             var Client = new WebClient();
             string Json = Client.DownloadString(JsonData.JsonFile);
 
-            if (Color == null)
+            if (Color == null && page == null && pageSize == null)
             {
                 var convert = JsonConvert.SerializeObject(Json);
 
                 return new string[] { convert };
+            }
+            else if(page != null && pageSize != null)
+            {
+                List<string> Pagelist = new List<string>();
+
+                return _jsonData.GetPages(Json, Pagelist, page, pageSize); ;
             }
             else
             {
@@ -44,7 +50,6 @@ namespace CloudNine.Praktik.Controllers
                 }
 
                 var JsonArray = JArray.Parse(Json);
-
                 for (int i = 0; i < JsonArray.Count; i++)
                 {
                     if (JsonArray[i]["color"].ToString() == Filterstring)
