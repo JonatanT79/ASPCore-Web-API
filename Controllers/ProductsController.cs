@@ -31,36 +31,21 @@ namespace CloudNine.Praktik.Controllers
 
                 return new string[] { convert };
             }
-            else if(page != null && pageSize != null)
+            else if ((page != null && pageSize != null) && Color == null)
             {
                 List<string> Pagelist = new List<string>();
 
-                return _jsonData.GetPages(Json, Pagelist, page, pageSize); ;
+                return _jsonData.GetPages(Json, Pagelist, page, pageSize);
             }
             else
             {
-                List<string> lista = new List<string>();
-                string Filterstring = "";
-                // Forloop that always make the first letter of string'Color' capital and the rest in lowercase
-                Filterstring += Color.Substring(0, 1).ToUpper();
+                List<string> stringlist = new List<string>();
 
-                for (int i = 1; i < Color.Length; i++)
-                {
-                    Filterstring += Color[i];
-                }
+                var Completelist = _jsonData.GetPagesFilteredByColor(Json, stringlist, page, pageSize, Color);
 
-                var JsonArray = JArray.Parse(Json);
-                for (int i = 0; i < JsonArray.Count; i++)
+                if (stringlist.Count != 0)
                 {
-                    if (JsonArray[i]["color"].ToString() == Filterstring)
-                    {
-                        lista.Add(JsonArray[i].ToString());
-                    }
-                }
-
-                if (lista.Count != 0)
-                {
-                    return lista;
+                    return Completelist;
                 }
                 else
                 {
@@ -73,19 +58,8 @@ namespace CloudNine.Praktik.Controllers
         [HttpGet("[controller]/{ID}")]
         public string GetProductsById(string ID)
         {
-            var client = new WebClient();
-            string json = client.DownloadString(JsonData.JsonFile);
-
-            var JsonArray = JArray.Parse(json);
             JToken product = null;
-            for (int i = 0; i < JsonArray.Count; i++)
-            {
-                if (JsonArray[i]["id"].ToString() == ID)
-                {
-                    product = JsonArray[i];
-                    break;
-                }
-            }
+            product = _jsonData.GetProductFilteredByID(ID, product);
 
             if (product == null)
             {
@@ -99,26 +73,9 @@ namespace CloudNine.Praktik.Controllers
 
         // GET: api/productColors
         [HttpGet("productColors")]
-        public IEnumerable<string> GetProductByColor(string ID)
+        public IEnumerable<string> GetColors()
         {
-            var client = new WebClient();
-            string json = client.DownloadString(JsonData.JsonFile);
-
-            var JsonArray = JArray.Parse(json);
-            List<string> Colorlist = new List<string>();
-            for (int i = 0; i < JsonArray.Count; i++)
-            {
-                Colorlist.Add(JsonArray[i]["color"].ToString());
-            }
-            return Colorlist;
+            return _jsonData.GetColorList();
         }
     }
 }
-// snygga till utskriften av json listan
-// använda where sats för att få fram specifierad id?
-// skapa en metod för json --- senare
-//spara strängen i en property i en json dataklass och skriv klass.sträng
-
-//JsonData jd = new JsonData();
-//jd.ID = JsonArray[i]["id"].ToString();
-//jd.ProductName = JsonArray[i]["productName"].ToString();
