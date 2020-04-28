@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using CloudNine.Praktik.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using WebAPI.Data;
 
-namespace CloudNine.Praktik.Controllers
+namespace WebAPI.Controllers
 {
     [ApiController]
     [Route("api")]

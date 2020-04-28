@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CloudNine.Praktik.Data
+namespace WebAPI.Data
 {
     public class JsonData
     {
