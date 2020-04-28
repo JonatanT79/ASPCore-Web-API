@@ -11,7 +11,7 @@ namespace WebAPI.Data
     {
         //This path is dependent on where the products.json is located in your documents
         //You may need to change this path to your own path by dragging the products.json file here (from your right/left)
-        public const string JsonFile = @"C:\Users\jonat\OneDrive\Dokument\Cloudnine\Cloudnine-.NET Web API\Data\products.json";
+        public const string JsonFile = @"C:\Users\jonat\OneDrive\Dokument\Cloudnine API\Cloudnine-.NET Web API\Data\products.json";
         public List<string> GetPages(string json, List<string> stringlist, int? Page, int? Pagesize)
         {
             //Create an Array of the Jsonfile-string
