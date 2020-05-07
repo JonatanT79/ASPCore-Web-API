@@ -51,12 +51,12 @@ namespace WebAPI.Controllers
                 List<string> stringlist = new List<string>();
 
                 //Declare a 'Completelist' that is equal to the list that this method returns
-                var Completelist = _jsonData.GetPagesFilteredByColor(Json, stringlist, page, pageSize, Color);
+                stringlist = _jsonData.GetPagesFilteredByColor(Json, stringlist, page, pageSize, Color);
 
                 //Check if any product have that color that the user entered. List.Count() is empty if none product have that color
                 if (stringlist.Count != 0)
                 {
-                    return Completelist;
+                    return stringlist;
                 }
                 else
                 {
